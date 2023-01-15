@@ -1,0 +1,60 @@
+@font-face{
+	font-family: "TruenoLt";
+	src: url("../fuentes/TruenoLt.otf");
+}
+@font-face{
+	font-family: "TruenoUltBlk";
+	src: url("../fuentes/TruenoUltBlk.otf");
+}
+@font-face{
+	font-family: "TruenoRg";
+	src: url("../fuentes/TruenoRg.otf");
+}
+
+.text-3{
+	font-family: "TruenoLt";
+	color: #ffffff;
+	position: relative;
+	top: 2rem;
+	left: 7rem;
+	letter-spacing: .5rem;
+}
+
+.text-4{
+	font-family: "TruenoUltBlk";
+	position: relative;
+	top: .5rem;
+	left: 7rem;
+	letter-spacing: .5rem;
+}
+
+#bloque-servicios-1{
+	background-color: #43408e;
+}
+
+#bloque-servicios-2{
+	background-color: #bed1d8;
+	background-image: url("../imagenes/VESCIS recurso backgrounds (2) - copiaO.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80rem;
+	position: relative;
+}
+
+#serv-gn-1, #serv-gn-2, #serv-gn-3{
+	color: #00e5e6;
+}
+
+#serv-gn-4, #serv-gn-5, #serv-gn-6,
+#serv-gn-7, #serv-gn-8, #serv-gn-9{
+	color: #43408e;
+}
+
+.text-color-white{
+	color: #ffffff !important;
+}
+
+#btx2, #btx4, #btx6, #btx8{
+	position: relative;
+	left: -100px;
+}

@@ -1,0 +1,49 @@
+#form-vescis{
+	background-image: url("../imagenes/WEB fondo VESCIS-01crop.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.text-1{
+	font-family: "TruenoUltBlk";
+	color: #43408e;
+	position: relative;
+	letter-spacing: .5rem;
+	text-shadow: 2px 2px 5px #ffffff;
+  top: 2rem;
+	left: 7rem;
+}
+
+div input, div > label, div textarea, button {
+  font-family: "TruenoRg";
+}
+
+.form-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
+  
+.form-row > .col,
+.form-row > [class*="col-"] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#logotipo-contacto{
+  margin: auto;
+  padding: 5rem 1rem ;
+}
+
+.text-contacto{
+  width: 80vw;
+	height: auto;
+	font-family: TruenoRg;
+	letter-spacing: .1rem;
+  margin: auto;
+}

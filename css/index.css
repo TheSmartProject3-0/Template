@@ -1,0 +1,339 @@
+@font-face{
+	font-family: "TruenoLt";
+	src: url("../fuentes/TruenoLt.otf");
+}
+@font-face{
+	font-family: "TruenoUltBlk";
+	src: url("../fuentes/TruenoUltBlk.otf");
+}
+@font-face{
+	font-family: "TruenoRg";
+	src: url("../fuentes/TruenoRg.otf");
+}
+@font-face{
+	font-family: "TruenoUltLt";
+	src: url("../fuentes/TruenoUltLt.otf");
+}
+
+hr{
+	background-color: blue;
+	width: 2px !important;
+	height: 15rem !important;
+	margin: .1% 5%;
+	opacity: 1;
+}
+
+footer{
+	height: auto;
+	background-color: #141414;
+	text-align: center;
+}
+
+.text-1, .text-3, .text-5, .text-7{
+	font-family: "TruenoUltLt";
+	color: #ffffff;
+	position: relative;
+	letter-spacing: .5rem;
+	text-shadow: 2px 2px 5px #ffffff;
+}
+
+.text-1, .text-3{
+	top: 2rem;
+}
+
+.text-3, .text-5{
+	left: 7rem;
+}
+
+.text-1{
+	left: 5rem;
+}
+
+.text-5{
+	top: 5rem;
+}
+
+.text-2{
+	text-shadow: 2px 2px 5px #ffffff;
+	font-family: "TruenoUltBlk";
+	position: relative;
+	letter-spacing: .5rem;
+	top: .5rem;
+	left: 30rem;
+}
+
+.text-4{
+	text-shadow: 2px 2px 5px #ffffff;
+	font-family: "TruenoUltBlk";
+	position: relative;
+	letter-spacing: .5rem;
+	top: .5rem;
+	left: 7rem;
+	display: inline-block !important;
+}
+
+.text-6{
+	text-shadow: 2px 2px 5px #ffffff;
+	font-family: "TruenoUltBlk";
+	position: relative;
+	letter-spacing: .5rem;
+	top: 5rem;
+	left: 7rem;
+}
+
+.text-8{
+	text-shadow: 2px 2px 5px #ffffff;
+	font-family: "TruenoUltBlk";
+	position: relative;
+	letter-spacing: .5rem;
+	color: #ffffff;
+}
+
+.fotos-derecha {
+	width: 50vw;
+	margin: 7.5% 0% 7.5% -15%;
+	display: inline-block !important;
+}
+
+.fotos-izquierda {
+	width: 50vw;
+	margin: 7.5% -15% 7.5% 15%;
+}
+
+#contenedor-quienes {
+	background-color: #43408e;
+}
+
+#mision, #vision{
+	background-color: #5babbb;
+}
+
+.parragraph-text, .parragraph-text-2, .parragraph-serv-md{
+	position: relative;
+	width: 30vw;
+	height: auto;
+	font-family: TruenoRg;
+	letter-spacing: .1rem;
+	padding: 1%;
+}
+
+.parragraph-text{
+	left: 3rem;
+	top: -1.5rem;
+	background-color: rgba( 255, 255, 255, .1);
+}
+
+.parragraph-text-2{
+	top: .5rem;
+	left: 7rem;
+	border: 1px solid #ffffff;
+}
+
+.parragraph-text-vision{
+	position: relative;
+	top: 5rem;
+}
+
+.text-color{
+	color: #ffffff !important;
+}
+
+.text-color-bl{
+	color: #000000 !important;
+}
+
+.fotos-landing{
+	width: 70%;
+	margin-left: 5rem;
+}
+
+.card{
+	border: 0px;
+	border-radius: 0px;
+	background-color: transparent;
+}
+
+#bloque-marketing-digital{
+	background: url("../imagenes/VESCIS recurso backgrounds (2) - copiaO.png") center no-repeat;
+	background-size: 80rem;
+	position: relative;
+}
+
+#serv-md-1, #serv-md-2, #serv-md-3, #serv-md-4, #serv-md-5, #serv-md-6, .color-vmorado {
+	color: #43408e;
+}
+
+.parragraph-serv-md{
+	top: .5rem;
+	left: 7rem;
+	width: 40vw;
+}
+
+#btx1, #btx3, #btx5{
+	position: relative;
+	left: -100px;
+}
+
+#bloque-equipo{
+	text-align: center;
+	background-color: #302e2b;
+	margin-bottom: 0px;
+}
+
+.centered{
+	margin: 0 auto;
+}
+
+#parragraph-equipo{
+	background-color: #ffffff;
+	font-family: "TruenoRg";
+	width: 55vw;
+	letter-spacing: .1rem;
+}
+
+.padding-top{
+	padding-top: 5rem;
+}
+
+.text-name{
+	font-family: "TruenoUltLt";
+	color: #ffffff;
+}
+
+.text-lname{
+	font-family: "TruenoUltBlk";
+	color: #ffffff;
+	margin-right: .5rem;
+}
+
+.desc-text{
+	font-family: "TruenoRg";
+	font-size: 2rem;
+	padding: 0px;
+}
+
+#menu-footer{
+	margin-left: 15rem;
+}
+
+#p-redes{
+	font-family: "TruenoUltblk";
+	color: #ffffff;
+	letter-spacing: .5rem;
+	padding-left: 1rem;
+}
+
+.fa {
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	margin: 0 2rem;
+}
+
+.isologo-neg{
+	height: 8rem;
+}
+
+#hr-footer{
+	background-color: #7c848a;
+	width: 80% !important;
+	height: 2px !important;
+	margin: 5% 10% 3% 10% !important;
+}
+
+.no-pad{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.card-body {
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	min-height: 1px;
+	padding: 0%;
+	margin: 0%;
+}
+
+.container{
+	padding: 0%;
+	height: auto !important;
+}
+
+.font-footer{
+	font-family: "TruenoRg";
+	color: #7c848a;
+}
+
+#a-ref{
+	text-decoration: none;
+}
+
+#a-ref:hover {
+	color: #43408e;
+}
+
+.foto-equipo{
+	vertical-align: top;
+	border-radius: 5px;
+	width: 200px;
+	height: auto;
+}
+
+.tarjeta{
+	background-color: #ffffff;
+	vertical-align: top;
+	margin-top: 1.5rem;
+}
+
+.tarjeta-rev{
+	margin-top: 0px !important;
+}
+
+.div-mt{
+	margin-top: 3rem !important;
+}
+
+@media(max-width: 576px){
+	.hidden {
+	display: none;
+	}
+
+	.menubar {
+		text-align: right;
+		padding-right: 20px;
+	}
+
+	.fotos-derecha, .fotos-izquierda {
+		width: 100%;
+		margin: 0%;
+	}
+
+	.text-1{
+	position: static;
+	letter-spacing: 0rem;
+	text-align: center;
+	}
+
+	.text-2{
+	position: relative;
+	top: -1rem;
+	left: 13rem;
+	letter-spacing: 0rem;
+	}
+
+	.parragraph-text{
+		position: absolute;
+		left: 0px;
+		top: 110px;
+		width: 100vw;
+		margin: 0px;
+	}
+
+	.fotos-derecha {
+		position: relative;
+		top: 200px;
+	}
+
+}
